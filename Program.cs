@@ -1,5 +1,5 @@
 ﻿using System;
-using System.ComponentModel;
+using System.Linq;
 
 class Program
 {
@@ -60,7 +60,7 @@ class Program
             }
         }
 
-        Console.WriteLine("Would you like to see the mean grade? (Y/N)");
+        Console.WriteLine("Would you like to display the mean grade? (Y/N)");
         string showMean = Console.ReadLine();
 
         if (showMean.ToUpper() == "Y")
@@ -68,6 +68,8 @@ class Program
             double mean = CalculateMean(grades);
             Console.WriteLine($"The mean grade is: {mean:N2}");
         }
+
+        DisplayMaxAndMinGrades(grades);
 
         Console.WriteLine("*ᴾʳᵉˢˢ ᵃⁿʸ ᵏᵉʸ ᵗᵒ ᵉˣᶦᵗ*");
         Console.ReadKey();
@@ -83,5 +85,23 @@ class Program
         }
 
         return sum / grades.Length;
+    }
+
+    static void DisplayMaxAndMinGrades(int[] grades)
+    {
+        Console.WriteLine("Would you like to display the maximum and minimum grades? (Y/N)");
+        string showMaxMin = Console.ReadLine();
+
+        if (showMaxMin.ToUpper() == "Y")
+
+        {
+            
+            int maxGrade = grades.Max();
+            int minGrade = grades.Min();
+
+            Console.WriteLine($"The maximum grade is: {maxGrade}");
+            Console.WriteLine($"The minimum grade is: {minGrade}");
+      
+        }
     }
 }
