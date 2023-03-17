@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+
 class Program
 {
     static void Main(string[] args)
@@ -24,7 +25,6 @@ class Program
                 i--; // repeat this iteration
             }
         }
-
 
         Console.WriteLine("Would you like to see the grades displayed? (Y/N)");
         string showGrades = Console.ReadLine();
@@ -60,10 +60,28 @@ class Program
             }
         }
 
+        Console.WriteLine("Would you like to see the mean grade? (Y/N)");
+        string showMean = Console.ReadLine();
 
+        if (showMean.ToUpper() == "Y")
+        {
+            double mean = CalculateMean(grades);
+            Console.WriteLine($"The mean grade is: {mean:N2}");
+        }
 
         Console.WriteLine("*ᴾʳᵉˢˢ ᵃⁿʸ ᵏᵉʸ ᵗᵒ ᵉˣᶦᵗ*");
         Console.ReadKey();
     }
-}
 
+    static double CalculateMean(int[] grades)
+    {
+        double sum = 0;
+
+        foreach (int grade in grades)
+        {
+            sum += grade;
+        }
+
+        return sum / grades.Length;
+    }
+}
