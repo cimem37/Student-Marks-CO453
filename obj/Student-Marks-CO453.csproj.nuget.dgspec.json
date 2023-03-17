@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/cimem/Documents/GitHub/Student-Marks-CO453/Student-Marks-CO453.csproj": {}
+  },
+  "projects": {
+    "/home/cimem/Documents/GitHub/Student-Marks-CO453/Student-Marks-CO453.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cimem/Documents/GitHub/Student-Marks-CO453/Student-Marks-CO453.csproj",
+        "projectName": "Student-Marks-CO453",
+        "projectPath": "/home/cimem/Documents/GitHub/Student-Marks-CO453/Student-Marks-CO453.csproj",
+        "packagesPath": "/home/cimem/.nuget/packages/",
+        "outputPath": "/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cimem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
