@@ -1,0 +1,15 @@
+/home/cimem/Documents/GitHub/Student-Marks-CO453/bin/Debug/net6.0/Student-Marks-CO453
+/home/cimem/Documents/GitHub/Student-Marks-CO453/bin/Debug/net6.0/Student-Marks-CO453.deps.json
+/home/cimem/Documents/GitHub/Student-Marks-CO453/bin/Debug/net6.0/Student-Marks-CO453.runtimeconfig.json
+/home/cimem/Documents/GitHub/Student-Marks-CO453/bin/Debug/net6.0/Student-Marks-CO453.dll
+/home/cimem/Documents/GitHub/Student-Marks-CO453/bin/Debug/net6.0/ref/Student-Marks-CO453.dll
+/home/cimem/Documents/GitHub/Student-Marks-CO453/bin/Debug/net6.0/Student-Marks-CO453.pdb
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/Student-Marks-CO453.csproj.AssemblyReference.cache
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/Student-Marks-CO453.GeneratedMSBuildEditorConfig.editorconfig
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/Student-Marks-CO453.AssemblyInfoInputs.cache
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/Student-Marks-CO453.AssemblyInfo.cs
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/Student-Marks-CO453.csproj.CoreCompileInputs.cache
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/Student-Marks-CO453.dll
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/ref/Student-Marks-CO453.dll
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/Student-Marks-CO453.pdb
+/home/cimem/Documents/GitHub/Student-Marks-CO453/obj/Debug/net6.0/Student-Marks-CO453.genruntimeconfig.cache
